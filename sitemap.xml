@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://williampetermatthew.github.io/categories/index.html</loc>
+    <loc>https://williampetermatthew.github.io/project/index.html</loc>
     
-    <lastmod>2018-08-20T16:53:51.326Z</lastmod>
+    <lastmod>2018-08-20T18:12:26.085Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://williampetermatthew.github.io/about/index.html</loc>
+    
+    <lastmod>2018-08-20T18:12:09.900Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://williampetermatthew.github.io/tags/index.html</loc>
+    
+    <lastmod>2018-08-20T18:09:31.077Z</lastmod>
     
   </url>
   
@@ -12,27 +26,6 @@
     <loc>https://williampetermatthew.github.io/2000/01/01/hello-world/</loc>
     
     <lastmod>2018-08-20T16:41:58.563Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://williampetermatthew.github.io/about/index.html</loc>
-    
-    <lastmod>2018-08-19T06:58:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://williampetermatthew.github.io/project/index.html</loc>
-    
-    <lastmod>2018-08-19T06:58:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://williampetermatthew.github.io/tags/index.html</loc>
-    
-    <lastmod>2018-08-19T06:58:22.000Z</lastmod>
     
   </url>
   
