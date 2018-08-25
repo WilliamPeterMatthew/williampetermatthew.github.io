@@ -10,7 +10,7 @@
   
   <title>
     
-      【转载】输入输出优化代码 | Peter_Matthew的博客
+      题解 T27522 【[开昕生日愚人题#4]二项式展开】 | Peter_Matthew的博客
     
   </title>
   <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -138,8 +138,8 @@
 </header>
 
     <div id="article-banner">
-  <h2>【转载】输入输出优化代码</h2>
-  <p class="post-date">2018-07-22</p>
+  <h2>题解 T27522 【[开昕生日愚人题#4]二项式展开】</h2>
+  <p class="post-date">2018-04-16</p>
   <div class="arrow-down">
     <a href="javascript:;"></a>
   </div>
@@ -147,22 +147,24 @@
 <main class="app-body flex-box">
   <!-- Article START -->
   <article class="post-article">
-    <section class="markdown-content"><p>输入优化：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">read</span><span class="params">(<span class="keyword">int</span> &amp;x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> f=<span class="number">1</span>;x=<span class="number">0</span>;<span class="keyword">char</span> s=getchar();</span><br><span class="line">    <span class="keyword">while</span>(s&lt;<span class="string">'0'</span>||s&gt;<span class="string">'9'</span>)&#123;<span class="keyword">if</span>(s==<span class="string">'-'</span>)f=<span class="number">-1</span>;s=getchar();&#125;</span><br><span class="line">    <span class="keyword">while</span>(s&gt;=<span class="string">'0'</span>&amp;&amp;s&lt;=<span class="string">'9'</span>)&#123;x=x*<span class="number">10</span>+s-<span class="string">'0'</span>;s=getchar();&#125;</span><br><span class="line">    x*=f;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>用法示例：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	read(n);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>输入优化（全类型）<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> __Type_of_read&gt;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">read</span><span class="params">(__Type_of_read &amp;x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    __Type_of_read f=<span class="number">1</span>;x=<span class="number">0</span>;<span class="keyword">char</span> s=getchar();</span><br><span class="line">    <span class="keyword">while</span>(s&lt;<span class="string">'0'</span>||s&gt;<span class="string">'9'</span>)&#123;<span class="keyword">if</span>(s==<span class="string">'-'</span>)f=<span class="number">-1</span>;s=getchar();&#125;</span><br><span class="line">    <span class="keyword">while</span>(s&gt;=<span class="string">'0'</span>&amp;&amp;s&lt;=<span class="string">'9'</span>)&#123;x=x*<span class="number">10</span>+s-<span class="string">'0'</span>;s=getchar();&#125;</span><br><span class="line">    x*=f;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>用法示例：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a;</span><br><span class="line">    <span class="keyword">short</span> b;</span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> c;</span><br><span class="line">	read(a),read(b),read(c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>输出优化<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">print</span><span class="params">(<span class="keyword">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(x&lt;<span class="number">0</span>)&#123;<span class="built_in">putchar</span>(<span class="string">'-'</span>);x=-x;&#125;</span><br><span class="line">    <span class="keyword">if</span>(x&gt;<span class="number">9</span>)print(x/<span class="number">10</span>);</span><br><span class="line">    <span class="built_in">putchar</span>(x%<span class="number">10</span>+<span class="string">'0'</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>用法示例：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n=<span class="number">14</span>;</span><br><span class="line">	print(n);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>输出优化（全类型）<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> __Type_of_print&gt;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">print</span><span class="params">(__Type_of_print x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(x&lt;<span class="number">0</span>)&#123;<span class="built_in">putchar</span>(<span class="string">'-'</span>);x=-x;&#125;</span><br><span class="line">    <span class="keyword">if</span>(x&gt;<span class="number">9</span>)print(x/<span class="number">10</span>);</span><br><span class="line">    <span class="built_in">putchar</span>(x%<span class="number">10</span>+<span class="string">'0'</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>用法示例：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">short</span> b=<span class="number">2</span>;</span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> c=<span class="number">3</span>;</span><br><span class="line">	print(a),print(b),print(c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+    <section class="markdown-content"><p><a href="https://www.luogu.org/problemnew/show/T27522" target="_blank" rel="noopener">LuoguT27522</a>:</p>
+<p>此题用了二项式定理，不知道可自行百度。</p>
+<p>20pts：就是表面上看的输出展开的字符。</p>
+<p>100pts：5以内杨辉三角数可以按$11^n$计算？$n\leq4$是没错，但是n==5时为161051，显然不是，那是不是我写错了呢？当然不是。所以你需要做的是按照这个规律输出。当然显然是没法按照$11^n$乘算的，所以我们只需要先算出杨辉三角数，然后再从后往前传大于10的数即可，多于总数时要多输出一个常数。</p>
+<hr>
+<blockquote>
+<p><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank" rel="noopener"><img src="https://i.creativecommons.org/l/by-nc-sa/3.0/cn/80x15.png" alt="知识共享许可协议"></a></p>
+<p><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank" rel="noopener"><img src="https://i.creativecommons.org/l/by-nc-sa/3.0/cn/88x31.png" alt="知识共享许可协议"></a></p>
+<p>本作品采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank" rel="noopener">知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议</a>进行许可。</p>
+</blockquote>
 </section>
     <!-- Tags START -->
     
       <div class="tags">
         <span>标签：</span>
         
-  <a href="/tags#柯基" >
-    <span class="tag-code">柯基</span>
+  <a href="/tags#题解" >
+    <span class="tag-code">题解</span>
   </a>
 
       </div>
@@ -173,17 +175,17 @@
   <div class="nav-container">
     <!-- reverse left and right to put prev and next in a more logic postition -->
     
-      <a class="nav-left" href="/2018/04/18/solution-t27533/">
+      <a class="nav-left" href="/2018/04/16/solution-t27521/">
         <span class="nav-arrow">← </span>
         
-          题解 T27533 【[开昕生日愚人题#6]无规律数列】
+          题解 T27521 【[开昕生日愚人题#3]字符串的值】
         
       </a>
     
     
-      <a class="nav-right" href="/2020/12/31/friend-links/">
+      <a class="nav-right" href="/2018/04/16/solution-t27523/">
         
-          【置顶】友链了解一下
+          题解 T27523 【[开昕生日愚人题#5]三角圆函数】
         
         <span class="nav-arrow"> →</span>
       </a>
@@ -242,7 +244,7 @@
 
 <script>
   (function () {
-    var url = 'https://williampetermatthew.github.io/2018/07/22/Input-and-output-optimization/';
+    var url = 'https://williampetermatthew.github.io/2018/04/16/solution-t27522/';
     var banner = ''
     if (banner !== '' && banner !== 'undefined' && banner !== 'null') {
       $('#article-banner').css({
@@ -298,7 +300,7 @@
     var gitmentConfig = "WilliamPeterMatthew";
     if (gitmentConfig !== 'undefined') {
       var gitment = new Gitment({
-        id: "【转载】输入输出优化代码",
+        id: "题解 T27522 【[开昕生日愚人题#4]二项式展开】",
         owner: "WilliamPeterMatthew",
         repo: "williampetermatthew.github.io",
         oauth: {
@@ -326,7 +328,7 @@
 <script>
   var disqus_shortname = '';
   
-  var disqus_url = 'https://williampetermatthew.github.io/2018/07/22/Input-and-output-optimization/';
+  var disqus_url = 'https://williampetermatthew.github.io/2018/04/16/solution-t27522/';
   
   (function(){
     var dsq = document.createElement('script');
