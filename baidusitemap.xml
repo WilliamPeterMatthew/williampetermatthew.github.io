@@ -4,26 +4,11 @@
 
     
   <url>
-    <loc>https://williampetermatthew.github.io/blog/hello-world/</loc>
-    <lastmod>2018-09-08T13:11:50.401Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>1999-12-31T16:00:00.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://williampetermatthew.github.io/blog/Input-and-output-optimization/</loc>
-    <lastmod>2018-09-08T10:11:09.778Z</lastmod>
+    <lastmod>2018-09-15T10:35:46.936Z</lastmod>
     <data>
         <display>
-        <title>【转载】输入输出优化代码</title>
+        <title>输入输出优化代码</title>
         <pubTime>2018-07-22T07:50:22.000Z</pubTime>
         
         <tag>柯基</tag>
@@ -33,6 +18,41 @@
              
               <breadCrumb title="柯基" url="https://williampetermatthew.github.io/categories/%E6%9F%AF%E5%9F%BA/"/>
           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://williampetermatthew.github.io/blog/data-construction-and-beat-program/</loc>
+    <lastmod>2018-09-15T10:30:47.937Z</lastmod>
+    <data>
+        <display>
+        <title>数据构造与对拍程序</title>
+        <pubTime>2018-09-10T12:52:32.000Z</pubTime>
+        
+        <tag>柯基</tag>
+         
+         
+           
+             
+              <breadCrumb title="柯基" url="https://williampetermatthew.github.io/categories/%E6%9F%AF%E5%9F%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://williampetermatthew.github.io/blog/hello-world/</loc>
+    <lastmod>2018-09-08T13:11:50.401Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>1999-12-31T16:00:00.000Z</pubTime>
+        
+         
+           
         </display>
     </data>
     </url>

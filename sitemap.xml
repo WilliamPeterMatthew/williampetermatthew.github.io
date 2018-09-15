@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://williampetermatthew.github.io/blog/hello-world/</loc>
+    <loc>https://williampetermatthew.github.io/blog/Input-and-output-optimization/</loc>
     
-    <lastmod>2018-09-08T13:11:50.401Z</lastmod>
+    <lastmod>2018-09-15T10:35:46.936Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://williampetermatthew.github.io/blog/Input-and-output-optimization/</loc>
+    <loc>https://williampetermatthew.github.io/blog/data-construction-and-beat-program/</loc>
     
-    <lastmod>2018-09-08T10:11:09.778Z</lastmod>
+    <lastmod>2018-09-15T10:30:47.937Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://williampetermatthew.github.io/blog/hello-world/</loc>
+    
+    <lastmod>2018-09-08T13:11:50.401Z</lastmod>
     
   </url>
   
