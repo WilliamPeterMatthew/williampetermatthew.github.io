@@ -1,0 +1,8 @@
+# robots.txt generated at http://tool.chinaz.com/robots/ 
+User-agent: *
+Disallow: 
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /js/
+Sitemap: https://williampetermatthew.github.io/sitemap.xml
+Sitemap: https://williampetermatthew.github.io/baidusitemap.xml
