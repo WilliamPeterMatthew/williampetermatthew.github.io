@@ -860,8 +860,26 @@ h2.article-head {
 .author .share-icons .icon-twitter {
   color: #2aa9e0;
 }
-.author .share-icons .icon-douban {
+.icon-douban {
   color: #00b51d;
+}
+.icon-qq {
+  color: #ec121e;
+}
+.icon-weichat {
+  color: #09ba07;
+}
+.icon-facebook {
+  color: #3b5998;
+}
+.icon-youtube {
+  color: #fe0002;
+}
+.icon-twitch {
+  color: #6442a3;
+}
+.icon-skype {
+  color: #018adb;
 }
 .project-app {
   max-width: 1020px;
