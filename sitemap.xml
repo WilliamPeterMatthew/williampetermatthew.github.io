@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://williampetermatthew.github.io/404.html</loc>
+    
+    <lastmod>2018-10-20T16:05:34.341Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://williampetermatthew.github.io/blog/Overloaded-Operators-And-Overloaded-Functions/</loc>
     
     <lastmod>2018-10-20T14:59:02.370Z</lastmod>
@@ -89,13 +96,6 @@
     <loc>https://williampetermatthew.github.io/blog/solution-t27508/</loc>
     
     <lastmod>2018-09-08T10:07:26.811Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://williampetermatthew.github.io/404.html</loc>
-    
-    <lastmod>2018-08-24T18:17:18.655Z</lastmod>
     
   </url>
   
