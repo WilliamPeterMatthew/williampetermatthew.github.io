@@ -1,264 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-
-    
-    
   <url>
     <loc>https://williampetermatthew.github.io/blog/Overloaded-Operators-And-Overloaded-Functions/</loc>
     <lastmod>2018-10-20T14:59:02.370Z</lastmod>
-    <data>
-        <display>
-        <title>重载运算符和重载函数</title>
-        <pubTime>2018-10-09T07:48:06.000Z</pubTime>
-        
-        <tag>柯基</tag>
-         
-         
-           
-             
-              <breadCrumb title="柯基" url="https://williampetermatthew.github.io/categories/%E6%9F%AF%E5%9F%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+  </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/high-precision-yes/</loc>
     <lastmod>2018-10-20T14:58:05.280Z</lastmod>
-    <data>
-        <display>
-        <title>高精度带符号整数算法</title>
-        <pubTime>2018-10-06T00:14:48.000Z</pubTime>
-        
-        <tag>柯基</tag>
-         
-         
-           
-             
-              <breadCrumb title="柯基" url="https://williampetermatthew.github.io/categories/%E6%9F%AF%E5%9F%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+  </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/high-precision-no/</loc>
     <lastmod>2018-10-20T14:57:18.386Z</lastmod>
-    <data>
-        <display>
-        <title>高精度无符号整数算法</title>
-        <pubTime>2018-09-29T13:20:20.000Z</pubTime>
-        
-        <tag>柯基</tag>
-         
-         
-           
-             
-              <breadCrumb title="柯基" url="https://williampetermatthew.github.io/categories/%E6%9F%AF%E5%9F%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+  </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/friend-links/</loc>
     <lastmod>2018-10-20T14:54:50.983Z</lastmod>
-    <data>
-        <display>
-        <title>【置顶】友链了解一下</title>
-        <pubTime>2020-12-31T15:59:59.000Z</pubTime>
-        
-        <tag>友链</tag>
-         
-         
-           
-             
-              <breadCrumb title="友链" url="https://williampetermatthew.github.io/categories/%E5%8F%8B%E9%93%BE/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+  </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/data-construction-and-beat-program/</loc>
     <lastmod>2018-10-20T14:54:16.863Z</lastmod>
-    <data>
-        <display>
-        <title>数据构造与对拍程序</title>
-        <pubTime>2018-09-10T12:52:32.000Z</pubTime>
-        
-        <tag>柯基</tag>
-         
-         
-           
-             
-              <breadCrumb title="柯基" url="https://williampetermatthew.github.io/categories/%E6%9F%AF%E5%9F%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+  </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/Input-and-output-optimization/</loc>
     <lastmod>2018-10-20T14:53:47.786Z</lastmod>
-    <data>
-        <display>
-        <title>输入输出优化代码</title>
-        <pubTime>2018-07-22T07:50:22.000Z</pubTime>
-        
-        <tag>柯基</tag>
-         
-         
-           
-             
-              <breadCrumb title="柯基" url="https://williampetermatthew.github.io/categories/%E6%9F%AF%E5%9F%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+  </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/hello-world/</loc>
     <lastmod>2018-10-20T14:53:07.536Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>1999-12-31T16:00:00.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+  </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/solution-t27533/</loc>
     <lastmod>2018-09-08T10:10:14.261Z</lastmod>
-    <data>
-        <display>
-        <title>题解 T27533 【[开昕生日愚人题#6]无规律数列】</title>
-        <pubTime>2018-04-18T07:08:00.000Z</pubTime>
-        
-        <tag>题解</tag>
-         
-         
-           
-             
-              <breadCrumb title="题解" url="https://williampetermatthew.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+  </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/solution-t27523/</loc>
     <lastmod>2018-09-08T10:09:56.950Z</lastmod>
-    <data>
-        <display>
-        <title>题解 T27523 【[开昕生日愚人题#5]三角圆函数】</title>
-        <pubTime>2018-04-16T11:34:59.000Z</pubTime>
-        
-        <tag>题解</tag>
-         
-         
-           
-             
-              <breadCrumb title="题解" url="https://williampetermatthew.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+  </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/solution-t27522/</loc>
     <lastmod>2018-09-08T10:09:35.593Z</lastmod>
-    <data>
-        <display>
-        <title>题解 T27522 【[开昕生日愚人题#4]二项式展开】</title>
-        <pubTime>2018-04-16T11:22:24.000Z</pubTime>
-        
-        <tag>题解</tag>
-         
-         
-           
-             
-              <breadCrumb title="题解" url="https://williampetermatthew.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+  </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/solution-t27521/</loc>
     <lastmod>2018-09-08T10:09:22.947Z</lastmod>
-    <data>
-        <display>
-        <title>题解 T27521 【[开昕生日愚人题#3]字符串的值】</title>
-        <pubTime>2018-04-16T11:09:16.000Z</pubTime>
-        
-        <tag>题解</tag>
-         
-         
-           
-             
-              <breadCrumb title="题解" url="https://williampetermatthew.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+  </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/solution-t27516/</loc>
     <lastmod>2018-09-08T10:08:39.686Z</lastmod>
-    <data>
-        <display>
-        <title>题解 T27516 【[开昕生日愚人题#2]低级计算器】</title>
-        <pubTime>2018-04-16T10:50:19.000Z</pubTime>
-        
-        <tag>题解</tag>
-         
-         
-           
-             
-              <breadCrumb title="题解" url="https://williampetermatthew.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+  </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/solution-t27508/</loc>
     <lastmod>2018-09-08T10:07:26.811Z</lastmod>
-    <data>
-        <display>
-        <title>题解 T27508 【[开昕生日愚人题#1]以前的版本】</title>
-        <pubTime>2018-04-16T10:43:02.000Z</pubTime>
-        
-        <tag>题解</tag>
-         
-         
-           
-             
-              <breadCrumb title="题解" url="https://williampetermatthew.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
+  </url>
 </urlset>
