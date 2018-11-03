@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://williampetermatthew.github.io/blog/float-double-and-long-double/</loc>
+    <lastmod>2018-11-03T16:41:12.409Z</lastmod>
+  </url>  <url>
+    <loc>https://williampetermatthew.github.io/blog/friend-links/</loc>
+    <lastmod>2018-11-03T16:38:52.152Z</lastmod>
+  </url>  <url>
+    <loc>https://williampetermatthew.github.io/blog/data-construction-and-beat-program/</loc>
+    <lastmod>2018-11-03T16:38:21.744Z</lastmod>
+  </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/Overloaded-Operators-And-Overloaded-Functions/</loc>
     <lastmod>2018-10-20T14:59:02.370Z</lastmod>
   </url>  <url>
@@ -9,12 +18,6 @@
   </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/high-precision-no/</loc>
     <lastmod>2018-10-20T14:57:18.386Z</lastmod>
-  </url>  <url>
-    <loc>https://williampetermatthew.github.io/blog/friend-links/</loc>
-    <lastmod>2018-10-20T14:54:50.983Z</lastmod>
-  </url>  <url>
-    <loc>https://williampetermatthew.github.io/blog/data-construction-and-beat-program/</loc>
-    <lastmod>2018-10-20T14:54:16.863Z</lastmod>
   </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/Input-and-output-optimization/</loc>
     <lastmod>2018-10-20T14:53:47.786Z</lastmod>
