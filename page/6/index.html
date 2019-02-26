@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+  <head><meta name="generator" content="Hexo 3.8.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <meta name="description" content="A Blog About Computer">
+  <meta name="keyword" content="Computer">
+  
+    <link rel="shortcut icon" href="/css/images/logo.png">
+  
+  <title>
+    
+      Peter_Matthew的博客
+    
+  </title>
+  <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
+  <link href="//cdn.bootcss.com/highlight.js/9.12.0/styles/tomorrow.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/plugins/gitment.css">
+  <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/geopattern/1.2.3/js/geopattern.min.js"></script>
+  <script src="//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js"></script>
+  <script src="/js/qrious.js"></script>
+<script src="/js/gitment.js"></script>
+  
+  
+    <!-- MathJax support START -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <!-- MathJax support END -->
+  
+
+
+</head>
+<div class="wechat-share">
+  <img src="/css/images/logo.png">
+</div>
+
+  <body>
+    <header class="header fixed-header">
+  <div class="header-container">
+    <a class="home-link" href="/">
+      <div class="logo"></div>
+      <span>Peter_Matthew的博客</span>
+    </a>
+    <ul class="right-list">
+      
+        <li class="list-item">
+          
+            <a href="/" class="item-link active">首页</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/tags/" class="item-link">标签</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/archives/" class="item-link">归档</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/project/" class="item-link">项目</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/about/" class="item-link">关于</a>
+          
+        </li>
+      
+    </ul>
+    <div class="menu">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </div>
+    <div class="menu-mask">
+      <ul class="menu-list">
+        
+          <li class="menu-item">
+            
+              <a href="/" class="menu-link mobile-active">首页</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/tags/" class="menu-link">标签</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/archives/" class="menu-link">归档</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/project/" class="menu-link">项目</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/about/" class="menu-link">关于</a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</header>
+
+    <main class="app-body">
+  
+    <article class="article-card">
+      <h2 class="article-head">
+        <a href="/blog/cena-or-lemon-ac-automation/">Cena和Lemon下的AC自动机</a>
+      </h2>
+      <p class="article-date">2018年9月13日</p>
+      
+        
+  <a href="/tags#柯基">
+    <span class="tag-code">柯基</span>
+  </a>
+
+      
+      <div class="article-summary">
+        
+          C++:1234567891011121314151617181920212223242526272829#include&lt;bits/stdc++.h&gt;using namespace std;char s[100001];int main()&#123;    int a,b,c ...
+        
+      </div>
+      <a class="more" href="/blog/cena-or-lemon-ac-automation/">查看全文</a>
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head">
+        <a href="/blog/lgrb-tou-lan-li-qi-hong/">【转载】C++中偷懒利器——宏</a>
+      </h2>
+      <p class="article-date">2018年9月12日</p>
+      
+        
+  <a href="/tags#洛谷日报">
+    <span class="tag-code">洛谷日报</span>
+  </a>
+
+      
+      <div class="article-summary">
+        
+          
+OI中可以用到的Linux基础教程
+
+声明：本文为转载文章，转载自洛谷日报#NAN，原作者为木木小胖。
+
+
+提到C++宏，大多数人想到的就是宏函数和宏常量，如MAXN 500```和```#define max(a,b) ((a)>(b)?(a):(b))```这种宏应用。12345678 ...
+        
+      </div>
+      <a class="more" href="/blog/lgrb-tou-lan-li-qi-hong/">查看全文</a>
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head">
+        <a href="/blog/data-construction-and-beat-program/">数据构造与对拍程序</a>
+      </h2>
+      <p class="article-date">2018年9月10日</p>
+      
+        
+  <a href="/tags#柯基">
+    <span class="tag-code">柯基</span>
+  </a>
+
+      
+      <div class="article-summary">
+        
+          数据构造作为一个毒瘤出题人，我们要学着出毒瘤数据卡做题人；作为一个蒟蒻做题人，我们要学着出毒瘤数据尝试卡自己的程序并调试，下面简单介绍出数据的一些方法。
+总程序的写法123456789101112131415161718192021222324252627282930313233343536 ...
+        
+      </div>
+      <a class="more" href="/blog/data-construction-and-beat-program/">查看全文</a>
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head">
+        <a href="/blog/strange-computer-knowledge/">一些奇奇怪怪的计算机知识</a>
+      </h2>
+      <p class="article-date">2018年9月3日</p>
+      
+        
+  <a href="/tags#母鸡虾米东溪">
+    <span class="tag-code">母鸡虾米东溪</span>
+  </a>
+
+      
+      <div class="article-summary">
+        
+          时间复杂度符号
+Θ，读音：theta、西塔；既是上界也是下界(tight)，等于的意思。
+Ο，读音：big-oh、欧米可荣（大写）；表示上界(tightness unknown)，小于等于的意思。
+ο，读音：small-oh、欧米可荣（小写）；表示上界(not tight)，小于的意思。
+Ω ...
+        
+      </div>
+      <a class="more" href="/blog/strange-computer-knowledge/">查看全文</a>
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head">
+        <a href="/blog/lgrb-gnu-pbds/">【转载】比STL还STL？——平板电视</a>
+      </h2>
+      <p class="article-date">2018年9月2日</p>
+      
+        
+  <a href="/tags#洛谷日报">
+    <span class="tag-code">洛谷日报</span>
+  </a>
+
+      
+      <div class="article-summary">
+        
+          
+比STL还STL？——平板电视
+
+声明：本文为转载文章，转载自洛谷日报#39，原作者为Chanis。
+
+
+__gnu_pbds食用教程●QQ826755370
+引入某P党：“你们C++的STL库真恶心强大，好多数据结构和算法都不用手打。”
+C党1：“STL能省下的代码量又不多，平衡树多难调 ...
+        
+      </div>
+      <a class="more" href="/blog/lgrb-gnu-pbds/">查看全文</a>
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head">
+        <a href="/blog/lgrb-cpp-iterator/">【转载】C++ 迭代器，了解一下？</a>
+      </h2>
+      <p class="article-date">2018年8月27日</p>
+      
+        
+  <a href="/tags#洛谷日报">
+    <span class="tag-code">洛谷日报</span>
+  </a>
+
+      
+      <div class="article-summary">
+        
+          
+C++ 迭代器，了解一下？
+
+声明：本文为转载文章，转载自洛谷日报#34，原作者为Xeonacid。
+
+
+由于作者是个C++鶸，如果本文有任何错误，烦请不吝指出。（有的地方已知描述是不完整的，但是与指针行为一致，或鉴于多数看这篇文章的都是算法竞赛选手，抑或考虑实际，刻意忽略掉辣）
+迭代器是 ...
+        
+      </div>
+      <a class="more" href="/blog/lgrb-cpp-iterator/">查看全文</a>
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head">
+        <a href="/blog/lgrb-Linux/">【转载】OI中可以用到的Linux基础教程</a>
+      </h2>
+      <p class="article-date">2018年8月27日</p>
+      
+        
+  <a href="/tags#洛谷日报">
+    <span class="tag-code">洛谷日报</span>
+  </a>
+
+      
+      <div class="article-summary">
+        
+          
+OI中可以用到的Linux基础教程
+
+声明：本文为转载文章，转载自洛谷日报#29，原作者为Chanis。
+
+
+Linux基础教程●前置系统：任意Linux(不用NOI Linux也没问题，我用的是deepin），如果没有装，而且你用的是win10，请看往期的洛谷日报：练习Linux？其实你 ...
+        
+      </div>
+      <a class="more" href="/blog/lgrb-Linux/">查看全文</a>
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head">
+        <a href="/blog/lgrb-gcc-hei-ke-ji-zhi-builtin-ji-lie-han-shuo/">【转载】GCC自带位运算系列函数</a>
+      </h2>
+      <p class="article-date">2018年8月12日</p>
+      
+        
+  <a href="/tags#洛谷日报">
+    <span class="tag-code">洛谷日报</span>
+  </a>
+
+      
+      <div class="article-summary">
+        
+          
+GCC自带位运算系列函数
+
+声明：本文为转载文章，转载自洛谷日报#26，原作者为I_love_him52。
+
+
+谈到GCC的黑科技，大家想到的一定是这句：1#pragma GCC optimize (3)//吸氧
+抑或是这句：1#pragma GCC diagnostic error "- ...
+        
+      </div>
+      <a class="more" href="/blog/lgrb-gcc-hei-ke-ji-zhi-builtin-ji-lie-han-shuo/">查看全文</a>
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head">
+        <a href="/blog/lgrb-ni-fou-zhi-dao-di-c-yu-fa/">【转载】你不知道的C++11新语法</a>
+      </h2>
+      <p class="article-date">2018年8月12日</p>
+      
+        
+  <a href="/tags#洛谷日报">
+    <span class="tag-code">洛谷日报</span>
+  </a>
+
+      
+      <div class="article-summary">
+        
+          
+你不知道的C++11新语法
+
+声明：本文为转载文章，转载自洛谷日报#21，原作者为colazcy。
+
+
+随着C++11的发布，C++这门语言有了本质上的提升。C++14,C++17的相继推出，更是让C++这门语言达到了一个新高度。新的标准库设施，新的语法，让我们得以书写更加安全、便捷、高效 ...
+        
+      </div>
+      <a class="more" href="/blog/lgrb-ni-fou-zhi-dao-di-c-yu-fa/">查看全文</a>
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head">
+        <a href="/blog/Input-and-output-optimization/">输入输出优化代码</a>
+      </h2>
+      <p class="article-date">2018年7月22日</p>
+      
+        
+  <a href="/tags#柯基">
+    <span class="tag-code">柯基</span>
+  </a>
+
+      
+      <div class="article-summary">
+        
+          输入输出效率比较一份摘自LOJ的一份读入测试数据，若干读入整数速度测试的结果（单位：毫秒）。输入：$3×10^6$个在区间中随机生成的十进制整数。
+
+
+
+#
+Lanuage
+$[0,2)$
+$[0,8)$
+$[0,2^{15})$
+$[0,2^{31})$
+$[0,2^{63})$
+
+
+
+
+ ...
+        
+      </div>
+      <a class="more" href="/blog/Input-and-output-optimization/">查看全文</a>
+    </article>
+  
+
+  
+    <div class="guide-pager">
+  
+    <a href="/page/5/"><span class="page-arrow">← </span>上一页</a>
+  
+  
+    <a href="/page/7/">下一页<span class="page-arrow"> →</span></a>
+  
+</div>
+  
+</main>
+
+
+    <div class="scroll-top">
+  <span class="arrow-icon"></span>
+</div>
+    <footer class="app-footer">
+  <p class="copyright">
+    &copy; 2018 - 2019 WilliamPeterMatthew | Proudly powered by <a href="https://hexo.io" target="_blank">Hexo</a>
+    <br>
+    Theme by <a href="https://github.com/yanm1ng">yanm1ng</a> | Modified by <a href="https://github.com/WilliamPeterMatthew">WilliamPeterMatthew</a>
+  </p>
+</footer>
+
+<script>
+  function async(u, c) {
+    var d = document, t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+    s.parentNode.insertBefore(o, s);
+  }
+</script>
+<script>
+  async("//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+    FastClick.attach(document.body);
+  })
+</script>
+
+<script>
+  var hasLine = 'true';
+  async("//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js", function(){
+    $('figure pre').each(function(i, block) {
+      var figure = $(this).parents('figure');
+      if (hasLine === 'false') {
+        figure.find('.gutter').hide();
+      }
+      var lang = figure.attr('class').split(' ')[1] || 'code';
+      var codeHtml = $(this).html();
+      var codeTag = document.createElement('code');
+      codeTag.className = lang;
+      codeTag.innerHTML = codeHtml;
+      $(this).attr('class', '').empty().html(codeTag);
+      figure.attr('data-lang', lang.toUpperCase());
+      hljs.highlightBlock(block);
+    });
+  })
+</script>
+<!-- Baidu Tongji -->
+
+<script src="/js/script.js"></script>
+  <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"superSample":2,"position":"left","width":150,"height":300,"hOffset":0,"vOffset":-20},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.2},"log":false});</script></body>
+</html>
