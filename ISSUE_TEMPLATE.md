@@ -3,7 +3,7 @@
 但在您提交议题之前，我不得不提醒您要尽可能的按照下面的格式提交，这样可以达到最好的效果。
 -->
 
-## For BUG
+## 对于网页上的BUG
 
 <!--
  1. BUG描述
@@ -14,10 +14,10 @@
 <!-- 如果您找到了某处Markdown的渲染错误，欢迎选择BUG的格式进行反馈！
 -->
 
-## For question
+## 对于某个点的提问
 
-<!-- Question description -->
+<!-- 问题描述 -->
 
-## For feature request
+## 对于要让我写的博客
 
-<!-- Feature description -->
+<!-- 内容描述 -->
