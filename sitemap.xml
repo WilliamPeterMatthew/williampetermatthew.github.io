@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://williampetermatthew.github.io/blog/Blog-Hexo/</loc>
+    
+    <lastmod>2019-03-02T02:59:28.394Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://williampetermatthew.github.io/blog/Python-05/</loc>
+    
+    <lastmod>2019-03-01T23:22:35.225Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://williampetermatthew.github.io/blog/string-exkmp/</loc>
+    
+    <lastmod>2019-03-01T00:11:03.179Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://williampetermatthew.github.io/blog/string-hash/</loc>
     
     <lastmod>2019-02-26T01:46:37.464Z</lastmod>
