@@ -2,7 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://williampetermatthew.github.io/blog/Blog-Hexo/</loc>
-    <lastmod>2019-03-02</lastmod>
+    <lastmod>2019-03-04</lastmod>
+  </url>  <url>
+    <loc>https://williampetermatthew.github.io/blog/hello-world/</loc>
+    <lastmod>2019-03-03</lastmod>
   </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/data-SegmentTree/</loc>
     <lastmod>2019-03-02</lastmod>
@@ -92,9 +95,6 @@
     <lastmod>2019-02-14</lastmod>
   </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/solution-u19727/</loc>
-    <lastmod>2019-02-14</lastmod>
-  </url>  <url>
-    <loc>https://williampetermatthew.github.io/blog/hello-world/</loc>
     <lastmod>2019-02-14</lastmod>
   </url>  <url>
     <loc>https://williampetermatthew.github.io/blog/Standard-Template-Library/</loc>
