@@ -74,7 +74,7 @@ public class Hello
 ```
 
 ## 條款
-[![創用 CC 授權條款](https://williampetermatthew.github.io/pic/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)  
-[![創用 CC 授權條款](https://williampetermatthew.github.io/pic/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)  
+[![創用 CC 授權條款](https://williampetermatthew.github.io/pic/license/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)  
+[![創用 CC 授權條款](https://williampetermatthew.github.io/pic/license/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)  
 博客的著作係採用[創用 CC 姓名標示-非商業性-相同方式分享 4.0 國際 授權條款](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)授權。  
 更多關於此條款的詳細信息可以查看[LICENSE](https://github.com/WilliamPeterMatthew/williampetermatthew.github.io/blob/master/LICENSE)文件或者查看其官方的[legalcode](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)版本。

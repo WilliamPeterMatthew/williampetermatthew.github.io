@@ -74,7 +74,7 @@ public class Hello
 ```
 
 ## License
-[![Creative Commons License](https://williampetermatthew.github.io/pic/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
-[![Creative Commons License](https://williampetermatthew.github.io/pic/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
+[![Creative Commons License](https://williampetermatthew.github.io/pic/license/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
+[![Creative Commons License](https://williampetermatthew.github.io/pic/license/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
 This blog's works are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
 More details on this protocol can be found in file [LICENSE](https://github.com/WilliamPeterMatthew/williampetermatthew.github.io/blob/master/LICENSE) or view its official [legalcode](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)version.
