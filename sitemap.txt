@@ -1,5 +1,7 @@
-https://www.gh.zhangkai.xin/about/index.html
 https://www.gh.zhangkai.xin/blog/Autobiography-01/
+https://www.gh.zhangkai.xin/blog/Autobiography-03/
+https://www.gh.zhangkai.xin/blog/Autobiography-02/
+https://www.gh.zhangkai.xin/about/index.html
 https://www.gh.zhangkai.xin/blog/Book-Exercises-of-PLC-5th-THQ-1/
 https://www.gh.zhangkai.xin/blog/Book-Exercises-of-PLC-5th-THQ-2/
 https://www.gh.zhangkai.xin/blog/Essay/Essay-01/
@@ -90,8 +92,6 @@ https://www.gh.zhangkai.xin/blog/Bisection/
 https://www.gh.zhangkai.xin/blog/BTPanel-L02/
 https://www.gh.zhangkai.xin/blog/BTPanel-L01/
 https://www.gh.zhangkai.xin/blog/BTPanel-L00/
-https://www.gh.zhangkai.xin/blog/Autobiography-03/
-https://www.gh.zhangkai.xin/blog/Autobiography-02/
 https://www.gh.zhangkai.xin/blog/AdobeFlashPlayerOfflineInstaller/
 https://www.gh.zhangkai.xin/project/index.html
 https://www.gh.zhangkai.xin/tags/index.html
